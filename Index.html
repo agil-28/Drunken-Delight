@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Penjualan Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Website Penjualan Sederhana</h1>
+        <div class="cart">
+            <span>Keranjang: <span id="cart-count">0</span> item</span>
+        </div>
+    </header>
+    <main>
+        <div class="product" id="product1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbJS_n7HJYuLTMmYdDpUliBeA1JFOjD-E6AA&s" alt="Minuman 49%">
+            <h2>Produk 1</h2>
+            <p>Harga: $10</p>
+            <button onclick="addToCart('Produk 1', 10)">Tambah ke Keranjang</button>
+        </div>
+        <div class="product" id="product2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSap4BvV96mZIllDSgjURNdgje4dtEnkoLFRQ&s" alt="Minuman 49%">
+            <h2>Produk 2</h2>
+            <p>Harga: $20</p>
+            <button onclick="addToCart('Produk 2', 20)">Tambah ke Keranjang</button>
+        </div>
+        <div class="product" id="product3">
+            <img src="https://media.gettyimages.com/id/458322339/photo/jack-daniels-whiskey-bottle.jpg?s=612x612&w=gi&k=20&c=WMjhK3hb-9dlaz3bwvvinOBh-cid2sSCuf2WUhLKQaQ=" alt="Minuman 49%">
+            <h2>Produk 3</h2>
+            <p>Harga: $30</p>
+            <button onclick="addToCart('Produk 3', 30)">Tambah ke Keranjang</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Website Penjualan Sederhana</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
