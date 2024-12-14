@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Penjualan Sederhana</title>
+    <title>DRUNKEN DELIGHT</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
+        <!-- Schema.org markup for SEO -->
         <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "",
-  "image": "",
-  "@id": "",
-  "url": "",
-  "telephone": "",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "",
-    "addressLocality": "",
-    "postalCode": "",
-    "addressCountry": ""
-  }  
-}
-</script>
-        <h1>Website Penjualan Sederhana</h1>
+            {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "DRUNKEN DELIGHT",
+                "image": "https://www.shutterstock.com/image-vector/delight-logo-vector-d-initial-600w-643913668.jpg",
+                "@id": "agilnasrudin260@gmail.com",
+                "url": "",
+                "telephone": "0881010105014",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Berlyn street",
+                    "addressLocality": "Jakarta City",
+                    "postalCode": "111555",
+                    "addressCountry": "Indonesia"
+                }
+            }
+        </script>
+
+        <!-- Title and Cart Section -->
+        <h1>DRUNKEN DELIGHT</h1>
+        <br>
+        <!-- Logo Section -->
+         <br>
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs48gb40F2WGmCF2XuUDgpdMYQvn0bFpjoWg&s" alt="DRUNKEN DELIGHT Logo" class="logo-img">
+        </div>
+        <br>
         <div class="cart">
             <span>Keranjang: <span id="cart-count">0</span> item</span>
         </div>
+
     </header>
+
     <main>
+        <!-- Product 1 -->
         <div class="product" id="product1">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbJS_n7HJYuLTMmYdDpUliBeA1JFOjD-E6AA&s" alt="Minuman 49%">
             <h2>Produk 1</h2>
             <p>Harga: $10</p>
             <button onclick="addToCart('Produk 1', 10)">Tambah ke Keranjang</button>
         </div>
+
+        <!-- Product 2 -->
         <div class="product" id="product2">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSap4BvV96mZIllDSgjURNdgje4dtEnkoLFRQ&s" alt="Minuman 49%">
             <h2>Produk 2</h2>
             <p>Harga: $20</p>
             <button onclick="addToCart('Produk 2', 20)">Tambah ke Keranjang</button>
         </div>
+
+        <!-- Product 3 -->
         <div class="product" id="product3">
             <img src="https://media.gettyimages.com/id/458322339/photo/jack-daniels-whiskey-bottle.jpg?s=612x612&w=gi&k=20&c=WMjhK3hb-9dlaz3bwvvinOBh-cid2sSCuf2WUhLKQaQ=" alt="Minuman 49%">
             <h2>Produk 3</h2>
@@ -51,9 +70,12 @@
             <button onclick="addToCart('Produk 3', 30)">Tambah ke Keranjang</button>
         </div>
     </main>
+
     <footer>
-        <p>&copy; 2023 Website Penjualan Sederhana</p>
+        <p>&copy; 2023 DRUNKEN DELIGHT</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
+
 </html>
